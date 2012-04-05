@@ -94,6 +94,6 @@ body { background: white; color: #000; font-size: 13px; margin-top: 0; font-fami
 				table.cls-table-gallery td img {}
 				table.cls-table-gallery td h5 { font-weight: normal; line-height: 20px; margin: 10px 0 4px 0;}
 			
-			.wpscls-copyright {padding: 0px 6px;}
+			.wpscls-copyright {display:none; padding: 0px 6px;}
 			.wpscls-copyright a {}
 			.wpscls-copyright a:hover {}

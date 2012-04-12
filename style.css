@@ -14,7 +14,7 @@ Copyright: (c) 2011 Wpshower
 /* Global reset of paddings and margins for all HTML elements */
 * { margin:0; padding: 0;}
 /* Correction: margin/padding reset caused too small select boxes. */
-option { padding-left: 0 0.4em; } 
+option { padding-left: 0 0.4em; }
 select { padding: 1px; }
 /* Global fix of the Italics bugs in IE 5.x and IE 6  */
 * html body * { overflow:visible; }
@@ -39,7 +39,6 @@ img, img a, a, a img { border: none; outline: none;}
 .Ftr { background-position:top right; background-repeat:no-repeat;}
 .Fbl { background-position:bottom left; background-repeat:no-repeat;}
 .Fbr { background-position:bottom right; background-repeat:no-repeat;}
-	
 /*	Common styles	*/
 /*	default for link */
 a { color:#000; background:transparent; text-decoration:none; }
@@ -49,35 +48,29 @@ a:focus, a:hover { color:#000;  text-decoration: underline;}
 .clr { clear: both; background: url('./_css/blank.gif') repeat-x; height: 0px;}
 .notext-left { text-indent: -9999px;}
 .notext-right { text-indent: 9999px;}
-
 /*	Website styles lie beneath	*/
 body { background: white; color: #000; font-size: 13px; margin-top: 0; font-family: "Helvetica Neue", Helvetica, Arial;}
 	#wps-site-wrapper {}
 		#wps-site-inner { }
-			
 			h1 { font-size: 13px; font-weight: bold; margin-bottom: 20px; line-height: 20px;}
 			h2 { font-size: 13px; font-weight: bold; margin-bottom: 20px; line-height: 20px;}
 			h4 { font-size: 13px; font-weight: bold; line-height: 20px;}
 			h5 { font-size: 13px;}
-		
 			#wps-sidebar { position: fixed; top: 0px; left: 40px; width: 220px; padding: 60px 14px 6px 14px; z-index: 10; background: white; line-height: 20px; height: 100%; }
 				#wps-sidebar h1 { padding: 0 6px;}
 				#wps-sidebar h2 { padding: 0 6px;}
 				#wps-sidebar h4 { padding: 0 6px;}
-			
 				.wpscls-menu-main {margin-bottom: 20px;}
 					.wpscls-menu-main li { list-style: none;}
 					.wpscls-menu-main li a { padding: 1px 6px; display: block;}
 					.wpscls-menu-main li a:hover {}
 					.wpscls-menu-main li.current-menu-item a {font-weight: bold;}
-				
 				.wpscls-cate-post {margin-bottom: 20px;}
 					.wpscls-cate-post ul  { margin-bottom: 20px;}
 					.wpscls-cate-post ul li { list-style: none;}
 					.wpscls-cate-post ul li a  { padding: 1px 6px; display: block;}
 					.wpscls-cate-post ul li a:hover { }
 					.wpscls-cate-post ul li a.current  { font-weight: bold;}
-			
 			table.cls-table-gallery { margin: 60px 0 0 300px;}
 			table.wpscls-with-content { }
 				table.cls-table-gallery td { vertical-align: top; padding-right: 28px;}
@@ -93,7 +86,6 @@ body { background: white; color: #000; font-size: 13px; margin-top: 0; font-fami
 				table.cls-table-gallery td.wpscls-post-content .wpscls-field-content img.alignleft { margin-right: 8px; float: left;}
 				table.cls-table-gallery td img {}
 				table.cls-table-gallery td h5 { font-weight: normal; line-height: 20px; margin: 10px 0 4px 0;}
-			
 			.wpscls-copyright {display:none; padding: 0px 6px;}
 			.wpscls-copyright a {}
 			.wpscls-copyright a:hover {}
